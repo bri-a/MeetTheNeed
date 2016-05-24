@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">SearchEngine</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_search">Search</string>
+    <string name="title_activity_input">Input</string>
+    <string name="title_activity_results">results</string>
+    <string name="title_activity_organization">Organization</string>
+    <string name="title_activity_search_spanish">searchSpanish</string>
+    <string name="title_activity_organization_spanish">OrganizationSpanish</string>
+    <string name="title_activity_map">mapActivity</string>
+
+
+    <string name="API_key">AIzaSyCl_cSg2FR9ERFfhMomuWojwcc_b3l75GU</string>
+
+</resources>
