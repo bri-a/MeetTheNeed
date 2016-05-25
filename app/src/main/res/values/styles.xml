@@ -1,27 +1,50 @@
 <resources>
 
     <!-- Base application theme. -->
-    <style name="AppTheme" parent="MeetTheNeed">
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
         <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColorPrimary">@color/textColorPrimary</item>
+        <item name="android:textColorSecondary">@color/textColorSecondary</item>
+        <item name="android:textColorPrimaryInverse">@color/textColorPrimaryInverse</item>
+        <item name="android:textColorSecondaryInverse">@color/textColorSecondaryInverse</item>
+
+        <item name="themedMenuCommentDrawable">@drawable/ic_comment_white_24dp</item>
+        <item name="themedHomeThemeDrawable">@drawable/ic_brightness_medium_black_24dp</item>
     </style>
 
-    <style name="AppTheme.NoActionBar">
-        <item name="windowActionBar">false</item>
-        <item name="windowNoTitle">true</item>
+    <style name="AppTheme.Dark" parent="Theme.AppCompat.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimaryInverse</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkInverse</item>
+        <item name="colorAccent">@color/colorAccentInverse</item>
+        <item name="android:textColorPrimary">@color/textColorPrimaryInverse</item>
+        <item name="android:textColorSecondary">@color/textColorSecondaryInverse</item>
+        <item name="android:textColorPrimaryInverse">@color/textColorPrimary</item>
+        <item name="android:textColorSecondaryInverse">@color/textColorSecondary</item>
+
+        <item name="themedMenuCommentDrawable">@drawable/ic_comment_black_24dp</item>
+        <item name="themedHomeThemeDrawable">@drawable/ic_brightness_medium_white_24dp</item>
+
     </style>
+
+    <!--<style name="AppTheme.NoActionBar">-->
+        <!--<item name="windowActionBar">false</item>-->
+        <!--<item name="windowNoTitle">true</item>-->
+    <!--</style>-->
 
     <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
 
     <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
-
-    <style name="MeetTheNeed" parent="Theme.AppCompat.NoActionBar"/>
 
 
     <style name="ButtonAppTheme" parent="Base.TextAppearance.AppCompat.Button">
         <item name="android:background">@color/accent_material_dark</item>
         <item name="android:minWidth">@dimen/btn_flat_min_width</item>
         <item name="android:minHeight">@dimen/btn_flat_min_height</item>
-        <item name="android:textColor">#ffffff</item>
+        <item name="android:textColor">@color/textColorPrimary</item>
         <item name="android:textAllCaps">true</item>
         <item name="android:textStyle">normal</item>
         <item name="android:padding">@dimen/btn_flat_padding</item>
@@ -31,13 +54,18 @@
 
     <style name="Toolbar" parent="Widget.AppCompat.Light.ActionBar">
         <item name="android:background">@color/primary_dark_material_dark</item>
-        <item name="android:textColorPrimary">@android:color/white</item>
-        <item name="android:textColorSecondary">@android:color/white</item>
+        <item name="android:textColorPrimary">@color/textColorPrimary</item>
+        <item name="android:textColorSecondary">@color/textColorSecondary</item>
+    </style>
+
+    <style name="textEmptyStyle">
+        <item name="android:textColor">@color/textColorSecondary</item>
+        <item name="android:textSize">@dimen/abc_text_size_headline_material</item>
+
     </style>
 
     <style name="horizontalLinLayout">
         <item name="android:layout_marginTop">8dp</item>
-
     </style>
 
 </resources>

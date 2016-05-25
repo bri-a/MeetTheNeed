@@ -29,7 +29,7 @@ import java.util.List;
 /**
  * Created by alcoranb with modifications by Victor on 4/14/16.
  */
-public class SearchNewSpanish extends AppCompatActivity
+public class SearchNewSpanish extends BaseActivity
 {
   SpanishDatabaseHandler dbContext;
   SQLiteDatabase database;

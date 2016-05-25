@@ -14,7 +14,7 @@ import android.widget.TextView;
 import java.util.ArrayList;
 import java.util.List;
 
-public class OrganizationSpanish extends AppCompatActivity {
+public class OrganizationSpanish extends BaseActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

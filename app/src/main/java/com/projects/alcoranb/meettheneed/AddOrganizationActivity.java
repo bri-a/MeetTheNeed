@@ -12,7 +12,7 @@ import android.widget.Button;
 import android.widget.EditText;
 
 
-public class AddOrganizationActivity extends AppCompatActivity {
+public class AddOrganizationActivity extends BaseActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

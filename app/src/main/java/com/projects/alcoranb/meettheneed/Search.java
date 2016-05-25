@@ -22,7 +22,7 @@ import android.widget.TextView;
 import com.projects.alcoranb.meettheneed.adapters.ArrayWheelAdapter;
 
 
-public class Search extends AppCompatActivity {
+public class Search extends BaseActivity {
 
     DatabaseHandler dbContext;
     SQLiteDatabase database;

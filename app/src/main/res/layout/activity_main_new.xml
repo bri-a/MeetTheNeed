@@ -18,7 +18,8 @@
             android:text="Meet The Need"
             android:id="@+id/textView2"
             android:layout_gravity="center_horizontal"
-            android:fontFamily="sans-serif-light"/>
+            android:fontFamily="sans-serif-light"
+            android:textColor="@color/textColorPrimaryInverse"/>
 
         <ImageView
             android:layout_width="149dp"
@@ -63,6 +64,13 @@
                 style="@style/ButtonAppTheme"/>
         </LinearLayout>
 
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/themeButton"
+            android:layout_gravity="center_horizontal"
+            android:src="?attr/themedHomeThemeDrawable"
+            android:onClick="onThemeButtonPressed"/>
 
 
     </LinearLayout>

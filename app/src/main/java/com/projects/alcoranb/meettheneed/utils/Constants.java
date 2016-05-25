@@ -8,4 +8,6 @@ public final class Constants
 {
   public enum FORMS {NAME, CATEGORY, ZIPCODE, CITY, STATE, COST, LANGUAGE, AGE_GROUP};
 
+  public static final String PREF_DARK_THEME = "pref_dark_theme";
+
 }

@@ -15,7 +15,7 @@ import android.widget.TextView;
 import java.util.ArrayList;
 import java.util.List;
 
-public class resultsSpanish extends AppCompatActivity {
+public class resultsSpanish extends BaseActivity {
 
     public List<Button> myButtons = new ArrayList<Button>();
     Integer buttonnum = 1;

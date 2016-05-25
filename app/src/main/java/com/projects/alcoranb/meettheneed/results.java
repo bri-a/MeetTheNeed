@@ -16,7 +16,7 @@ import android.widget.TextView;
 import java.util.ArrayList;
 import java.util.List;
 
-public class results extends AppCompatActivity {
+public class results extends BaseActivity {
 
     public List<Button> myButtons = new ArrayList<Button>();
     Integer buttonnum = 1;

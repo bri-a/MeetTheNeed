@@ -12,6 +12,16 @@
     <string name="title_activity_map">mapActivity</string>
 
 
+    <string name="menu_comment">Comment</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_changeTheme">Switch Theme</string>
+
+
     <string name="API_key">AIzaSyCl_cSg2FR9ERFfhMomuWojwcc_b3l75GU</string>
+
+    <string name="api_key">AIzaSyBbCZjaEuAQhRHpM1ESlXOGamzWfalg0lY</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 
 </resources>

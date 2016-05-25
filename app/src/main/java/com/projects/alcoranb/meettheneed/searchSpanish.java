@@ -19,7 +19,7 @@ import android.widget.EditText;
 import com.projects.alcoranb.meettheneed.adapters.ArrayWheelAdapter;
 
 
-public class searchSpanish extends AppCompatActivity {
+public class searchSpanish extends BaseActivity {
 
     SpanishDatabaseHandler dbContext;
     SQLiteDatabase database;

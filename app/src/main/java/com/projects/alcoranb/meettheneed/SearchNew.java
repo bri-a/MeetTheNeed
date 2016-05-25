@@ -29,7 +29,7 @@ import java.util.List;
 /**
  * Created by alcoranb on 4/14/16.
  */
-public class SearchNew extends AppCompatActivity
+public class SearchNew extends BaseActivity
 {
   DatabaseHandler dbContext;
   SQLiteDatabase database;
@@ -287,6 +287,10 @@ public class SearchNew extends AppCompatActivity
 
     //noinspection SimplifiableIfStatement
     if (id == R.id.action_settings) {
+      return true;
+    }
+
+    if (id == R.id.menu_changeTheme) {
       return true;
     }
 
